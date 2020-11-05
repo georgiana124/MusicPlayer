@@ -16,8 +16,8 @@ class MusicPlayer:
         pygame.mixer.init()
         self.track = StringVar()
         self.status = StringVar()
-        # self.CLIENT_ID = "018892e26d5c445083b18ad1b9d7b646"
-        # self.CLIENT_SECRET = "753c83550edc4c48bedb478e2559f6f8"
+        # self.CLIENT_ID = "ClientID"
+        # self.CLIENT_SECRET = "ClientSecretID"
         #
         # token = util.oauth2.SpotifyClientCredentials(client_id=self.CLIENT_ID, client_secret=self.CLIENT_SECRET)
         # cache_token = token.get_access_token()
